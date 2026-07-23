@@ -11,8 +11,7 @@
    - enlace: adónde lleva el botón SABER MÁS (de momento '#')
    ------------------------------------------------------------ */
 const WORKS = [
-  { titulo:'Is God Dead?',              desc:'Una exploración del nihilismo, la crisis de fe y la moral en el tema "God Is Dead?" de Black Sabbath, planteando la espiritualidad individual como resistencia al caos moderno.'
-.', img:'assets/img/works/is-god-dead.jpg',         enlace:'#' },
+  { titulo:'Is God Dead?',              desc:'',         enlace:'#' },
   { titulo:'Snowblind',                 desc:'Cartel para el clásico de Black Sabbath. La estela del avión como línea de coca, blanco sobre azul.', img:'assets/img/works/snowblind.jpg',           enlace:'#' },
   { titulo:'MF DOOM',                   desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/mf-doom.jpg',             enlace:'#' },
   { titulo:"Bed's Too Big Without You", desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/beds-too-big.jpg',        enlace:'#' },
