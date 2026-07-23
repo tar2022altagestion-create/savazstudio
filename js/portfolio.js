@@ -11,7 +11,8 @@
    - enlace: adónde lleva el botón SABER MÁS (de momento '#')
    ------------------------------------------------------------ */
 const WORKS = [
-  { titulo:'Is God Dead?',              desc:'Lost in the darkness <b> I fade from the light <b> Fade of my father, my brother, my maker and Savior <b> Help me make it through the night <b> Una exploración del nihilismo, la crisis de fe y la moral en el tema "God Is Dead?" de Black Sabbath, planteando la espiritualidad individual como resistencia al caos moderno.'
+  { titulo:'Is God Dead?',              desc: 'Lost in the darkness,<b> I fade from the light.<b> Cause of death: blindness,<b> it\'s there in the night.<b> Una exploración del nihilismo, la crisis de fe y la moral en el tema "God Is Dead?" de Black Sabbath, planteando la espiritualidad individual como resistencia al caos moderno.'
+
 .', img:'assets/img/works/is-god-dead.jpg',         enlace:'#' },
   { titulo:'Snowblind',                 desc:'Cartel para el clásico de Black Sabbath. La estela del avión como línea de coca, blanco sobre azul.', img:'assets/img/works/snowblind.jpg',           enlace:'#' },
   { titulo:'MF DOOM',                   desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/mf-doom.jpg',             enlace:'#' },
