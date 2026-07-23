@@ -11,7 +11,7 @@
    - enlace: adónde lleva el botón SABER MÁS (de momento '#')
    ------------------------------------------------------------ */
 const WORKS = [
-  { titulo:'Is God Dead?',              desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/is-god-dead.jpg',         enlace:'#' },
+  { titulo:'Is God Dead?',              desc:'Cartel para el clásico de Black Sabbath. La estela del avión como línea de coca, blanco sobre azul.', img:'assets/img/works/is-god-dead.jpg',         enlace:'#' },
   { titulo:'Snowblind',                 desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/snowblind.jpg',           enlace:'#' },
   { titulo:'MF DOOM',                   desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/mf-doom.jpg',             enlace:'#' },
   { titulo:"Bed's Too Big Without You", desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/beds-too-big.jpg',        enlace:'#' },
