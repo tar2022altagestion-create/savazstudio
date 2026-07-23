@@ -1,0 +1,5 @@
+Fuentes instaladas y conectadas en css/styles.css:
+  PPEditorialNew-Ultralight.woff2  (peso 200, reservada para detalles)
+  PPEditorialNew-Regular.woff2     (peso 400, frase del hero)
+  PPEditorialNew-Ultrabold.woff2   (peso 800, titular SAVAZ STUDIO)
+  Geist-Variable.woff2             (pesos 100-900, interfaz y menu)

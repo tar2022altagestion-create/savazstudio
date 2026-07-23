@@ -1,0 +1,4 @@
+Coloca aqui las portadas de tus trabajos (jpg/png/webp)
+y referencia su ruta en js/portfolio.js, campo img de cada proyecto:
+  img:'assets/img/works/mi-proyecto.jpg'
+Recomendado: ~800px de ancho, formato 3:4 aprox.

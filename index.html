@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Portfolio</title>
+<script>
+  /* tema persistente: se aplica antes del primer pintado para evitar destellos */
+  document.documentElement.setAttribute('data-theme', localStorage.getItem('savaz-theme') || 'light');
+</script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ Contenido ============ -->
+<div id="smooth-wrapper">
+  <main id="smooth-content">
+
+    <section id="inicio">
+      <div class="hero-eye">
+      <button class="eye" id="eye" aria-pressed="false" aria-label="Cambiar a modo noche">
+        <span class="eye-inner" id="eyeInner">
+        <canvas id="eyeCanvas" width="640" height="414" aria-hidden="true"></canvas>
+        <img class="eye-open"   alt="" draggable="false">
+        <img class="eye-closed" alt="" draggable="false">
+        </span>
+      </button>
+      <p class="tagline" id="tagline">Shh... it's getting late</p>
+      </div>
+      <h1 class="studio-title" aria-label="Savaz Studio"><span>SAVAZ</span><span>STUDIO</span></h1>
+    </section>
+
+    <section id="player" aria-label="Tocadiscos">
+      <button class="turntable" id="turntable" aria-pressed="false" aria-label="Reproducir música">
+        <span class="tt-piece tt-disc" id="ttDisc">
+          <canvas width="560" height="555" aria-hidden="true"></canvas>
+          <img alt="" draggable="false">
+        </span>
+        <span class="tt-piece tt-arm" id="ttArm">
+          <canvas width="200" height="531" aria-hidden="true"></canvas>
+          <img alt="" draggable="false">
+        </span>
+      </button>
+    </section>
+
+    <section id="portfolio"></section>
+    <section id="about"></section>
+    <section id="contacto"></section>
+
+  </main>
+</div>
+
+<!-- ============ Pastilla única que se expande ============ -->
+<nav class="dock" id="dock" aria-label="Navegación principal">
+  <div class="pill" id="pill">
+    <div class="items" id="items">
+      <a href="portfolio.html"><span>Portfolio</span></a>
+      <a href="#about"><span>Sobre mí</span></a>
+      <a href="#contacto"><span>Contacto</span></a>
+      <div class="divider" aria-hidden="true"></div>
+    </div>
+
+    <button class="toggle" id="toggle"
+            aria-expanded="false" aria-controls="items" aria-haspopup="true">
+      <span class="lbl">
+        <span class="t-menu">Menu</span>
+        <span class="t-close">Cerrar</span>
+      </span>
+    </button>
+  </div>
+</nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/CustomEase.min.js"></script>
+<script src="js/img-data.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Portfolio · Savaz Studio</title>
+<script>
+  /* tema persistente: se aplica antes del primer pintado para evitar destellos */
+  document.documentElement.setAttribute('data-theme', localStorage.getItem('savaz-theme') || 'light');
+</script>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body data-dock="always">
+
+<header class="works-head">
+  <a class="works-brand" href="index.html">Savaz Studio</a>
+  <p class="works-eyebrow">Portfolio — Trabajos seleccionados</p>
+</header>
+
+<main class="works-stage" id="worksStage" aria-label="Trabajos">
+  <div class="works-track" id="worksTrack"><!-- las tarjetas se generan desde js/portfolio.js --></div>
+</main>
+
+<!-- ============ Pastilla de navegación ============ -->
+<nav class="dock" id="dock" aria-label="Navegación principal">
+  <div class="pill" id="pill">
+    <div class="items" id="items">
+      <a href="index.html"><span>Inicio</span></a>
+      <a href="index.html#about"><span>Sobre mí</span></a>
+      <a href="index.html#contacto"><span>Contacto</span></a>
+      <div class="divider" aria-hidden="true"></div>
+    </div>
+
+    <button class="toggle" id="toggle"
+            aria-expanded="false" aria-controls="items" aria-haspopup="true">
+      <span class="lbl">
+        <span class="t-menu">Menu</span>
+        <span class="t-close">Cerrar</span>
+      </span>
+    </button>
+  </div>
+</nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/CustomEase.min.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/portfolio.js"></script>
+</body>
+</html>

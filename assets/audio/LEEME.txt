@@ -1,0 +1,5 @@
+Coloca aqui el tema del tocadiscos, por ejemplo: track.mp3
+Despues, en js/main.js, cambia la linea:
+  const AUDIO_SRC = '';
+por:
+  const AUDIO_SRC = 'assets/audio/track.mp3';

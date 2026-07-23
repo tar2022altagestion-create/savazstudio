@@ -1,0 +1,19 @@
+SAVAZ STUDIO - Portfolio
+========================
+
+Estructura:
+  index.html          pagina principal
+  css/styles.css      estilos
+  js/main.js          logica (menu, ojo, tocadiscos, scroll)
+  js/img-data.js      dibujos en base64 (ver nota dentro del archivo)
+  assets/img/         PNGs originales de los dibujos
+  assets/audio/       aqui va la musica del tocadiscos
+  fonts/              aqui van los .woff2 de PP Editorial New
+
+Probar en local:
+  Doble clic en index.html y funciona todo, incluido el boiling.
+
+Publicar:
+  Sube la carpeta tal cual a Netlify, Vercel o cualquier hosting estatico.
+
+Nota: GSAP se carga desde CDN (cdnjs), hace falta conexion.
