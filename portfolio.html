@@ -15,12 +15,21 @@
 
 <header class="works-head">
   <a class="works-brand" href="index.html">Savaz Studio</a>
-  <p class="works-eyebrow">Portfolio — Trabajos seleccionados</p>
+  <p class="works-eyebrow">Portfolio — <span id="sectionLabel">Carteles</span></p>
 </header>
 
 <main class="works-stage" id="worksStage" aria-label="Trabajos">
   <div class="works-track" id="worksTrack"><!-- las tarjetas se generan desde js/portfolio.js --></div>
 </main>
+
+<!-- ============ Cortina de garabato (transición de sección) ============ -->
+<div class="curtain" id="curtain" aria-hidden="true">
+  <svg viewBox="0 0 3000 1000" preserveAspectRatio="none">
+    <path id="curtainPath" fill="currentColor"/>
+    <path id="curtainScr1" fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round"/>
+    <path id="curtainScr2" fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round"/>
+  </svg>
+</div>
 
 <!-- ============ Pastilla de navegación ============ -->
 <nav class="dock" id="dock" aria-label="Navegación principal">

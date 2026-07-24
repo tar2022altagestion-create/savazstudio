@@ -56,7 +56,7 @@ html, body{
   opacity:.45;
 }
 @media (max-width:767px){
-  .works-eyebrow{display:none;}
+  .works-eyebrow{font-size:9.5px;}
 }
 
 /* ---------- Escenario del carrusel ---------- */
@@ -240,3 +240,92 @@ html, body{
 
 /* el contenido trasero aparece cuando la tarjeta se expande */
 .wb-cover, .wb-info{opacity:0;}
+
+
+/* ---------- Placeholder de tarjeta sin imagen (huecos 3D) ---------- */
+.work-ph{
+  position:absolute;
+  inset:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  color:var(--panel-ink);
+  transition:color var(--theme-fade) ease;
+}
+.work-ph .ph-num{
+  font-family:var(--font-display);
+  font-weight:200; /* Editorial New Ultralight */
+  font-size:4.6rem;
+  line-height:1;
+  opacity:.9;
+}
+.work-ph .ph-name{
+  font-family:var(--font-ui);
+  font-size:10.5px;
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  opacity:.55;
+  text-align:center;
+  padding:0 14px;
+}
+.wb-cover .work-ph{position:relative;height:100%;}
+.wb-cover .work-ph .ph-num{font-size:3rem;}
+.wb-cover .work-ph .ph-name{display:none;}
+
+/* ---------- Remate del carril: invita a la otra sección ---------- */
+.track-endcap{
+  flex:0 0 auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:14px;
+  background:transparent;
+  border:0;
+  cursor:pointer;
+  color:var(--ink);
+  padding:0 14px;
+  -webkit-tap-highlight-color:transparent;
+  transition:color var(--theme-fade) ease;
+}
+.track-endcap .cap-arrow{
+  width:92px;
+  height:92px;
+  border:1.5px solid currentColor;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  font-family:var(--font-display);
+  font-size:2rem;
+  transition:transform .3s ease;
+}
+.track-endcap:hover .cap-arrow{transform:translateX(6px);}
+.track-endcap:active .cap-arrow{transform:scale(.94);}
+.track-endcap .cap-label{
+  font-family:var(--font-ui);
+  font-size:10.5px;
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  opacity:.55;
+}
+.track-endcap:focus-visible{outline:none;}
+.track-endcap:focus-visible .cap-arrow{box-shadow:0 0 0 1.5px currentColor;}
+
+/* ---------- Cortina de garabato ---------- */
+.curtain{
+  position:fixed;
+  inset:0;
+  z-index:300;
+  pointer-events:none;
+  color:var(--ink); /* negra de día, blanca de noche */
+  visibility:hidden;
+}
+.curtain svg{
+  position:absolute;
+  top:0;
+  left:0;
+  width:300vw;
+  height:100%;
+  will-change:transform;
+}
