@@ -68,6 +68,12 @@ const WORKS = [
     img:'assets/img/works/black-sabbath-merch.jpg',
     enlace:'#'
   },
+  {
+    titulo:'Marty Supreme',
+    desc:'Su descripción.',
+    img:'assets/img/works/marty-supreme.webp',
+    enlace:'#'
+  },
 ];
 
 const stage = document.getElementById('worksStage');
