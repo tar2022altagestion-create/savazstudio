@@ -95,13 +95,19 @@ const WORKS = [
   {
     titulo:'The Lighthouse',
     desc:'Su descripción.',
-    img:'assets/img/works/the.lighthouse.webp',
+    img:'assets/img/works/the-lighthouse.webp',
     enlace:'#'
   },
   {
     titulo:'Ashes To Ashes',
     desc:'Su descripción.',
     img:'assets/img/works/ashes-to-ashes.webp',
+    enlace:'#'
+  },
+  {
+    titulo:'Camel',
+    desc:'Su descripción.',
+    img:'assets/img/works/camel.webp',
     enlace:'#'
   },
 ];
