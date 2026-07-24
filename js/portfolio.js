@@ -40,31 +40,31 @@ const WORKS = [
   },
   {
     titulo:"Bed's Too Big Without You",
-    desc:'La ausencia no es la falta de algo, sino su presencia insoportable. El vacío que deja alguien no está hueco: pesa, ocupa, ensancha la habitación hasta hacerla inhabitable.<br>Cartel para mi canción favorita de The Police.',
+    desc:'La ausencia no es la falta de algo, sino su presencia insoportable. El vacío que deja alguien no está hueco: pesa, ocupa, ensancha la habitación hasta hacerla inhabitable.<br><br>Cartel para mi canción favorita de The Police.',
     img:'assets/img/works/beds-too-big.jpg',
     enlace:'#'
   },
   {
     titulo:'Savaz Studio',
-    desc:'Texto provisional — cámbialo por la descripción real.',
+    desc:'Edición limitada de una mente en combustión.',
     img:'assets/img/works/savaz-studio.jpg',
     enlace:'#'
   },
   {
     titulo:'Restricted Lane',
-    desc:'Texto provisional — cámbialo por la descripción real.',
+    desc:'Toda señal supone un cuerpo obediente. Pero el símbolo también fuma, se desvía, incumple: no hay norma que sobreviva al que la habita.',
     img:'assets/img/works/restricted-lane.jpg',
     enlace:'#'
   },
   {
     titulo:'Red Skin',
-    desc:'Texto provisional — cámbialo por la descripción real.',
+    desc:'Ese rojo no es rubor ni vergüenza. Es lo que pasa cuando alguien decide arder por gusto y le sale bien<br><br>Propuesta para Vogue',
     img:'assets/img/works/red-skin.jpg',
     enlace:'#'
   },
   {
     titulo:'Black Sabbath Merch',
-    desc:'Texto provisional — cámbialo por la descripción real.',
+    desc:'Toda banda con suficientes años acaba siendo una religión.<br><br>Merchandising como estampa devocional: llevas puesto a quién rezas, y el desgaste de la tela es la prueba de fe.',
     img:'assets/img/works/black-sabbath-merch.jpg',
     enlace:'#'
   },
