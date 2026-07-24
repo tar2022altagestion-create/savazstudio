@@ -40,7 +40,7 @@ const WORKS = [
   },
   {
     titulo:"Bed's Too Big Without You",
-    desc:'La ausencia no es la falta de algo, sino su presencia insoportable. El vacío que deja alguien no está hueco: pesa, ocupa, ensancha la habitación hasta hacerla inhabitable.',
+    desc:'La ausencia no es la falta de algo, sino su presencia insoportable. El vacío que deja alguien no está hueco: pesa, ocupa, ensancha la habitación hasta hacerla inhabitable.<br>Cartel para mi canción favorita de The Police.',
     img:'assets/img/works/beds-too-big.jpg',
     enlace:'#'
   },
