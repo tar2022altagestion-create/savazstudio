@@ -74,6 +74,36 @@ const WORKS = [
     img:'assets/img/works/marty-supreme.webp',
     enlace:'#'
   },
+  {
+    titulo:'Dos en Uno',
+    desc:'Su descripción.',
+    img:'assets/img/works/have-a-cigar.webp',
+    enlace:'#'
+  },
+  {
+    titulo:'Sweet Leaf',
+    desc:'Su descripción.',
+    img:'assets/img/works/sweet-leaf.webp',
+    enlace:'#'
+  },
+  {
+    titulo:'Marlboro Blues',
+    desc:'Su descripción.',
+    img:'assets/img/works/marlboro-blue.webp',
+    enlace:'#'
+  },
+  {
+    titulo:'The Lighthouse',
+    desc:'Su descripción.',
+    img:'assets/img/works/the.lighthouse.webp',
+    enlace:'#'
+  },
+  {
+    titulo:'Ashes To Ashes',
+    desc:'Su descripción.',
+    img:'assets/img/works/ashes-to-ashes.webp',
+    enlace:'#'
+  },
 ];
 
 const stage = document.getElementById('worksStage');
