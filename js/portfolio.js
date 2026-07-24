@@ -30,8 +30,8 @@ const WORKS = [
     enlace:'#'
   },
   {
-    titulo:'MF DOOM',
-    desc:'Texto provisional — cámbialo por la descripción real.',
+    titulo:'Retrato de quien nunca quiso ser retratado. Píxeles en lugar de rostro, fuego en lugar de marco: lo único que queda nítido es la firma. MF DOOM el villano del rap',
+    desc:'El villano del rap',
     img:'assets/img/works/mf-doom.jpg',
     enlace:'#'
   },
