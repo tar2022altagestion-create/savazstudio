@@ -3,22 +3,71 @@
    ============================================================ */
 
 /* ------------------------------------------------------------
-   TUS TRABAJOS · añade, quita o reordena entradas aquí.
-   - titulo: nombre del proyecto
-   - desc:   texto corto de la cara trasera
-   - img:    ruta de la portada, p.ej. 'assets/img/works/snowblind.jpg'
-             (si se deja vacía se muestra un placeholder numerado)
-   - enlace: adónde lleva el botón SABER MÁS (de momento '#')
+   TUS TRABAJOS · edita solo los textos entre comillas.
+
+     REGLAS PARA NO ROMPER NADA:
+   1. No borres las comillas ni las comas.
+   2. Escribe la descripción de un tirón, SIN pulsar Enter en medio.
+   3. Si tu texto lleva un apóstrofe (it's, l'estudi), escríbelo it\'s
+      o rodea todo el texto con comillas dobles: desc:"it's así".
+   4. Las comillas dobles " dentro de un texto con comillas simples
+      no dan problema: desc:'el tema "God Is Dead?" de Sabbath'.
+   5. SALTO DE LINEA: escribe <br> donde quieras cortar el texto.
+      Ejemplo: desc:'Primera frase.<br>Segunda frase.'
+      Para dejar una linea en blanco entre parrafos: <br><br>
+   
+   Para añadir un proyecto: copia un bloque entero { ... }, con su
+   coma final, y cambia sus datos.
    ------------------------------------------------------------ */
 const WORKS = [
-  { titulo:'Is God Dead?',              desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/is-god-dead.jpg',         enlace:'#' },
-  { titulo:'Snowblind',                 desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/snowblind.jpg',           enlace:'#' },
-  { titulo:'MF DOOM',                   desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/mf-doom.jpg',             enlace:'#' },
-  { titulo:"Bed's Too Big Without You", desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/beds-too-big.jpg',        enlace:'#' },
-  { titulo:'Savaz Studio',              desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/savaz-studio.jpg',        enlace:'#' },
-  { titulo:'Restricted Lane',           desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/restricted-lane.jpg',     enlace:'#' },
-  { titulo:'Red Skin',                  desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/red-skin.jpg',            enlace:'#' },
-  { titulo:'Black Sabbath Merch',       desc:'Texto provisional — pásame la descripción real de este trabajo y la cambio.', img:'assets/img/works/black-sabbath-merch.jpg', enlace:'#' },
+  {
+    titulo:'Is God Dead?',
+    desc:'Una exploración del nihilismo, la crisis de fe y la moral en el tema "God Is Dead?" de Black Sabbath, planteando la espiritualidad individual como resistencia al caos moderno.',
+    img:'assets/img/works/is-god-dead.jpg',
+    enlace:'#'
+  },
+  {
+    titulo:'Snowblind',
+    desc:'Cartel para el clásico de Black Sabbath. La estela del avión como línea de coca, blanco sobre azul.',
+    img:'assets/img/works/snowblind.jpg',
+    enlace:'#'
+  },
+  {
+    titulo:'MF DOOM',
+    desc:'Retrato de quien nunca quiso ser retratado. Píxeles en lugar de rostro, fuego en lugar de marco: lo único que queda nítido es la firma. MF DOOM el villano del rap',
+    img:'assets/img/works/mf-doom.jpg',
+    enlace:'#'
+  },
+  {
+    titulo:"Bed's Too Big Without You",
+    desc:'La ausencia no es la falta de algo, sino su presencia insoportable. El vacío que deja alguien no está hueco: pesa, ocupa, ensancha la habitación hasta hacerla inhabitable.<br><br>Cartel para mi canción favorita de The Police.',
+    img:'assets/img/works/beds-too-big.jpg',
+    enlace:'#'
+  },
+  {
+    titulo:'Savaz Studio',
+    desc:'Edición limitada de una mente en combustión.',
+    img:'assets/img/works/savaz-studio.jpg',
+    enlace:'#'
+  },
+  {
+    titulo:'Restricted Lane',
+    desc:'Toda señal supone un cuerpo obediente. Pero el símbolo también fuma, se desvía, incumple: no hay norma que sobreviva al que la habita.',
+    img:'assets/img/works/restricted-lane.jpg',
+    enlace:'#'
+  },
+  {
+    titulo:'Red Skin',
+    desc:'Ese rojo no es rubor ni vergüenza. Es lo que pasa cuando alguien decide arder por gusto y le sale bien<br><br>Propuesta para Vogue',
+    img:'assets/img/works/red-skin.jpg',
+    enlace:'#'
+  },
+  {
+    titulo:'Black Sabbath Merch',
+    desc:'Toda banda con suficientes años acaba siendo una religión.<br><br>Merchandising como estampa devocional: llevas puesto a quién rezas, y el desgaste de la tela es la prueba de fe.',
+    img:'assets/img/works/black-sabbath-merch.jpg',
+    enlace:'#'
+  },
 ];
 
 const stage = document.getElementById('worksStage');

@@ -111,7 +111,7 @@
     align-items:center;
     width:100vw;
     font-family:var(--font-display);
-    font-weight:800; /* PP Editorial New Ultrabold (el más pesado de la familia) */
+    font-weight:400; /* PP Editorial New Ultrabold (el más pesado de la familia) */
     /* engorda los finos del Ultrabold para acercarlo al cuerpo de la serif provisional */
     -webkit-text-stroke:.012em currentColor;
     font-size:30vw; /* móvil: STUDIO sangra por los lados pero se lee entero */
