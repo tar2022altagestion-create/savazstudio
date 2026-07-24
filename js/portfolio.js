@@ -5,14 +5,17 @@
 /* ------------------------------------------------------------
    TUS TRABAJOS · edita solo los textos entre comillas.
 
-   REGLAS PARA NO ROMPER NADA:
+     REGLAS PARA NO ROMPER NADA:
    1. No borres las comillas ni las comas.
    2. Escribe la descripción de un tirón, SIN pulsar Enter en medio.
    3. Si tu texto lleva un apóstrofe (it's, l'estudi), escríbelo it\'s
       o rodea todo el texto con comillas dobles: desc:"it's así".
    4. Las comillas dobles " dentro de un texto con comillas simples
       no dan problema: desc:'el tema "God Is Dead?" de Sabbath'.
-
+   5. SALTO DE LINEA: escribe <br> donde quieras cortar el texto.
+      Ejemplo: desc:'Primera frase.<br>Segunda frase.'
+      Para dejar una linea en blanco entre parrafos: <br><br>
+   
    Para añadir un proyecto: copia un bloque entero { ... }, con su
    coma final, y cambia sus datos.
    ------------------------------------------------------------ */
@@ -37,7 +40,7 @@ const WORKS = [
   },
   {
     titulo:"Bed's Too Big Without You",
-    desc:'Texto provisional — cámbialo por la descripción real.',
+    desc:'La ausencia no es la falta de algo, sino su presencia insoportable. El vacío que deja alguien no está hueco: pesa, ocupa, ensancha la habitación hasta hacerla inhabitable.',
     img:'assets/img/works/beds-too-big.jpg',
     enlace:'#'
   },
